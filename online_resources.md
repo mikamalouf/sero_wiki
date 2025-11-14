@@ -5,26 +5,31 @@ layout: default
 
 # Seroanalytic online resources
 
-Below are a list of online 
+Below are a list of online resources
 
-1. [Serosurveytools.org​](Serosurveytools.org) 
+---
+## Websites
+[Serosurveytools.org​](Serosurveytools.org)   
+An online resource developed by Johns Hopkins University and the International Vaccine Access Centre that offers learning modules, tools, and guidance for designing and conducting a serosurvey.  
 
-2. [https://www.serotracker.com/​](https://www.serotracker.com/​)
+[https://www.serotracker.com/​](https://www.serotracker.com/​)  
+Source for COVID-19, MERS, and Arbovirus Seroprevalence Data.  
 
-3. [Seroanalytics Hub](https://www.iddynamics.jhsph.edu/seroanalytics-hub)
-Research group based at Johns Hopkins University aiming to create an online wiki for seroanalytics
+[Seroanalytics Hub](https://www.iddynamics.jhsph.edu/seroanalytics-hub)  
+Research group based at Johns Hopkins University aiming to create an online wiki for seroanalytics.  
 
-4. [Serocalculator](https://github.com/UCD-SERG/serocalculator)
-An R package designed to estimate sero-incidence from cross sectional data. Modelled from longitudinal data 
+---
 
-5. serosolver
-Description: Inference framework for serological data​
-GitHub: https://github.com/seroanalytics/serosolver 
+## R packages
+[Serocalculator](https://github.com/UCD-SERG/serocalculator)  
+An R package designed to estimate sero-incidence from cross sectional data. Modelled from longitudinal data.  
 
-6. Rsero
-Description: R package to estimate the annual force of infection using serological data​
-GitHub: https://github.com/nathoze/Rsero 
-Paper: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777 
+[serosolver](https://github.com/seroanalytics/serosolver)  
+R package developed to create an inference framework for serological data​.  
+ 
+[Rsero](https://github.com/nathoze/Rsero )
+R package to estimate the annual force of infection using serological data​.
+More information on its development and application is described in their [2025 publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777)
 
 7. Seroism
 Description: R package for simulating serosurvey data using custom models for the data-generating process​
