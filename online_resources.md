@@ -1,6 +1,7 @@
+---
 title: Online resources
 layout: default
-nav_order: 2
+---
 
 # Seroanalytic online resources
 
