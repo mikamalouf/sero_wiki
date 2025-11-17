@@ -27,9 +27,7 @@ An R package designed to estimate sero-incidence from cross sectional data. Mode
 [serosolver](https://github.com/seroanalytics/serosolver)  
 R package developed to create an inference framework for serological data​.  
  
-[Rsero](https://github.com/nathoze/Rsero)  
-R package to estimate the annual force of infection using serological data​.
-More information on its development and application is described in their [2025 publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777)
+
 
 [Seroism](https://github.com/seroanalytics/serosim)  
 R package for simulating serosurvey data using custom models for the data-generating process​. 
@@ -45,13 +43,17 @@ XXXX MIKA NOTE: FIND CODE OR INFO XXXXX
 [MultiSero](https://github.com/meganodris/MultiSero)  
 R code to to dis-entangle cross-reactivity. The preprint describing its use and development can be found [here](https://www.medrxiv.org/content/10.1101/2024.08.12.24311852v1).  
 
+
+##### Estimating the transmission dynamics 
+[Rsero](https://github.com/nathoze/Rsero)  
+R package to estimate the annual force of infection using serological data​.
+More information on its development and application is described in their [2025 publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777)
+
 [seroFOI](https://github.com/epiverse-trace/serofoi )
 R package that estimates the Force-of-Infection of a given pathogen from population based sero-prevalence studies
 
 [serojump](https://github.com/seroanalytics/serojump )
-R package provides tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC)
-Paper: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013467 
+R package provides tools for fitting serological models to antibody kinetics data using reversible-jump Markov Chain Monte Carlo (RJ-MCMC). You can read more on its implementation [here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013467)
 
 [shinyMBA](https://github.com/CDCgov/shinyMBA)  
-R shiny application developed by the US CDC to streamline quality control (QC) analyses for serosurveillance studies using the Luminex multiplex bead assay (MBA)
-Paper: https://www.nature.com/articles/s41598-024-57652-4#Ack1 
+R shiny application developed by the US CDC to streamline quality control (QC) analyses for serosurveillance studies using the Luminex multiplex bead assay (MBA). You can read more on its use and development [here](https://www.nature.com/articles/s41598-024-57652-4#Ack1)
