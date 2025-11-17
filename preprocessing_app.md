@@ -8,4 +8,5 @@ An R Shiny app was created by the Drakeley group at the London School of Hygeine
 - no coding is needed
 Background and instructions can be found here XXXXX
 
-The app can be accessed here XXXXX
+The app can be accessed [here](https://mikamalouf.shinyapps.io/Luminex_Data_Analysis/). XXX NOT READY FOR DEPLOYMENT YET
+
