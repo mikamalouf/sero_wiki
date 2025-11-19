@@ -3,9 +3,11 @@ title: Pre-processing raw data
 layout: default
 ---
 
-What is pre-processing?
+# What is pre-processing?
+Like any assay, the raw data output from a multiplex bead assay will need quality control. There are technical variations in the raw dataset that can be from minor plate to plate variation of MFI values during processing, instrument sensitivity, pipetting errors, or even fluctuations in lab temperatures. Pre-processing is the steps of reducing this variability and transforming the raw multiplex dataset to be usable for downstream analysis. Without pre-processing, the dataset may be biased by confusing technical noise with biological differences. 
 
 
+# Web application for pre-processing
 An R Shiny app was created by the Drakeley group at the London School of Hygeine and Tropical Medicine to standardise the quality control steps of analysing raw multiplex datasets from a Luminex machine.
 - If the assay passes the quality control checks, then the data can be cleaned and downloaded for downstream analysis
 - no coding is needed
