@@ -68,6 +68,7 @@ R package developed to create an inference framework for longitudinal serologica
 R package for simulating serosurvey data using custom models for the data-generating process. Generates data for testing and validation.
 More information can be found in their [publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011384).  
 
+---
 
 ## Other
 [MultiSero](https://github.com/meganodris/MultiSero)  
