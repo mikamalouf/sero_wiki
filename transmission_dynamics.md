@@ -4,7 +4,9 @@ layout: default
 has_children: true
 ---
 
-Scripts to establish transmission dynamics from multiplex dataset from 2 settings:
+## Estimating the transmission dynamics of cross-sectional serological surveys (a practical application)
+
+The following section contaings R markdown establishing the transmission dynamics from cross-sectional multiplex dataset from 2 settings:
 1. High transmission setting estimating malarial seroprevalence in Uganda
 2. Low transmission setting estimating malarial seroprevalence in a malaria-eliminated country in Southeast Asia
 
