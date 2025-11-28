@@ -64,9 +64,9 @@ R package developed to create an inference framework for longitudinal serologica
 
 
 ### *Generate synthetic data*
-[Seroism](https://github.com/seroanalytics/serosim)  
+[Seroism](https://seroanalytics.org/serosim-web/)  
 R package for simulating serosurvey data using custom models for the data-generating process. Generates data for testing and validation.
-More information can be found in their [publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011384).  
+More information can be found in their [publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011384) and [GitHub](https://github.com/seroanalytics/serosim).
 
 ---
 
