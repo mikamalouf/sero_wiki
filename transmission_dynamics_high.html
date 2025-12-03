@@ -682,11 +682,10 @@ print(scr_fit$estimates)</code></pre>
 <pre><code>         estimate       lower      upper
 lambda 0.14726725 0.133358831 0.16262623
 rho    0.01301667 0.009182448 0.01845192</code></pre>
+</div>
+
 <div id="step-2-convert-the-results-to-a-data-frame" class="section level3">
-  
-</div>
-</div>
-<h3>Step 2: Convert the results to a data frame</h3>
+  <h3>Step 2: Convert the results to a data frame</h3>
 <pre class="r"><code>scr_fit$estimates &lt;- data.frame(
   Group = &quot;High-transmission&quot;,
   lambda.est = scr_fit$estimates[&quot;lambda&quot;, &quot;estimate&quot;],
@@ -696,7 +695,7 @@ rho    0.01301667 0.009182448 0.01845192</code></pre>
   rho.lower = scr_fit$estimates[&quot;rho&quot;, &quot;lower&quot;],
   rho.upper = scr_fit$estimates[&quot;rho&quot;, &quot;upper&quot;])</code></pre>
 </div>
-</div>
+
 
 <div id="step-3-plot-scr-with-age-stratified-seroprevalence" class="section level3">
 <h3>Step 3: Plot scr with age-stratified seroprevalence</h3>

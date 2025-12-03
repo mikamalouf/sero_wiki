@@ -1,6 +1,7 @@
 ---
 title: Pre-processing raw data
 layout: default
+nav_order: 4
 ---
 
 # What is pre-processing?
