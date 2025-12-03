@@ -9,6 +9,9 @@ Below are a list of online resources
 
 ---
 ## Websites
+[covidClassifyR](https://shaziaruybal.shinyapps.io/covidClassifyR/)  
+An RShiny app developed as a tool to streamline the processing of raw serological multiplex data for measuring antibodies to SARS-CoV-2.
+
 [Serosurvey Tools](Serosurveytools.org)   
 An online resource developed by Johns Hopkins University and the International Vaccine Access Centre that offers learning modules, tools, and guidance for designing and conducting a serosurvey.  
 
@@ -38,11 +41,15 @@ BREAD
 Pre-processing code developed by the Johns Hopkins group
 XXXX MIKA NOTE: FIND CODE OR INFO XXXXX
 
+[flexfit](https://github.com/EPPIcenter/flexfit/tree/master)  
+R package to process raw serological data
+
 [SerolyzeR](https://github.com/mini-pw/SerolyzeR)  
 R package to pre-processing raw data to an analysable form.
 
 [shinyMBA](https://github.com/CDCgov/shinyMBA)  
 R shiny application developed by the US CDC to streamline quality control (QC) analyses for serosurveillance studies using the Luminex multiplex bead assay (MBA). You can read more on its use and development [here](https://www.nature.com/articles/s41598-024-57652-4#Ack1)
+
 
 
 ### *Estimating the transmission dynamics*  
