@@ -2,11 +2,12 @@
 title: Transmission dynamics
 layout: default
 has_children: true
+nav_order: 6
 ---
 
-## Estimating the transmission dynamics of cross-sectional serological surveys (a practical application)
+## Estimating the transmission dynamics of cross-sectional serological surveys - a practical application
 
-The following section contaings R markdown establishing the transmission dynamics from cross-sectional multiplex dataset from 2 settings:
+The following section contains the HTML version of an R markdown establishing the transmission dynamics from cross-sectional multiplex dataset from 2 settings:
 1. High transmission setting estimating malarial seroprevalence in Uganda
 2. Low transmission setting estimating malarial seroprevalence in a malaria-eliminated country in Southeast Asia
 

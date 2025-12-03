@@ -31,12 +31,12 @@ The data explored in this practical is inspired by the data collected in the PRI
 in the PRISM study (Program for Resistance, Immunology, Surveillance and
 Modelling of Malaria in Uganda).</p>
 <p>Demographic variables within this dataset include: 
-     <br> - <b>age</b>: This is a continuous variable representing age in years. 
-     <br> - <b>gender</b>: This variable is split into Male and Female 
-     <br> - <b>bednet</b>: This variable shows whether the participant uses a bednet (1) or not (0). 
-     <br> - <b>microscopy</b>: This variable represents whether a participant had a positive microscopy test (1) for malaria or a negative malaria microscopy test (0). 
-     <br> - <b>RDT</b>: This variable represents a rapid diagnostic test (RDT) result. A positive test = 1, negative test = 0. 
-     <br> - <b>haemoglobin range</b>: This variable represents the participant haemoglobin range in a categorical variable.</p>
+     <br> <b>age</b>: This is a continuous variable representing age in years. 
+     <br> <b>gender</b>: This variable is split into Male and Female 
+     <br> <b>bednet</b>: This variable shows whether the participant uses a bednet (1) or not (0). 
+     <br> <b>microscopy</b>: This variable represents whether a participant had a positive microscopy test (1) for malaria or a negative malaria microscopy test (0). 
+     <br> <b>RDT</b>: This variable represents a rapid diagnostic test (RDT) result. A positive test = 1, negative test = 0. 
+     <br> <b>haemoglobin range</b>: This variable represents the participant haemoglobin range in a categorical variable.</p>
 
 <div id="age-distributions-and-sero-conversion-rates" class="section level2">
 <h2>Age distributions and sero-conversion rates</h2>
@@ -661,7 +661,10 @@ plot_seroprev_age(plot.age.profile=seropos_recent.age.profile, district =&quot;R
 <div id="estimating-force-of-infection-foi-using-sero-conversion-rates" class="section level1">
 <h1>Estimating Force of Infection (FOI) using sero-conversion rates</h1>
 <p>The Force of Infection (FOI) is a metric used to estimate transmission intensity of a disease, in this case malaria. It represents the rate a susceptible population acquires infection.</p>
+
 <h2>Historic exposure </h2> 
+
+<div id="step-1-estimate-sero-conversion-rate-force-of-infection-by-study-site" class="section level3">
 <h3>Step 1: Estimate sero-conversion rate (force of infection) by study site</h3>
 <ul>
 <li><b>lambda</b> - sero-<i>conversion rate</i> with 95% confidence intervals</li>
@@ -675,10 +678,11 @@ df &lt;- dat %&gt;%
 # Create a structured data object that organizes age, seropositivity status, and grouping information in a standard format 
 data2 &lt;- create.data.object(round(df$age), df$seropos_historic)
 
-</div>
+
 # Estimating sero-conversion rate by fitting a reversible catalytic model
 scr_fit &lt;- simple.rcm.analysis(data2, analysis=&#39;overall&#39;, int.rho=c(0.001,0.250))
 print(scr_fit$estimates)</code></pre>
+
 <pre><code>         estimate       lower      upper
 lambda 0.14726725 0.133358831 0.16262623
 rho    0.01301667 0.009182448 0.01845192</code></pre>
