@@ -458,17 +458,23 @@ considered seropositive to that specific antigen.</p>
 <div id="historic-exposure-2" class="section level3">
 <h3>Historic exposure</h3>
 <p>The code below creates the following variables:</p>
-<br> <b>seropos_antigen:</b> 
-<br> <b>- seronegative (0)</b>: the MFI value is below the MFI cutoff threshold established in the FMM above. 
-<br> <b>- seropositive (1)</b>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above
+<br> <b>seropos_antigen:</b>
+<ul>
+<li> <u>seronegative (0)</u>: the MFI value is below the MFI cutoff threshold established in the FMM above. </li>
+<li> <u>seropositive (1)</u>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above. </li>
+</ul>
 
 <br> <b>historic_cumulative</b>: Combines the values of all historic antigens. The value is either:
-<br> - 0 = No antigen response is considered seropositive
-<br> - 1 = One antigen MFI value is considered seropositive 
-<br> - 2 = Two antigen MFI value is considered seropositive 
-<br> - 3 = Three antigen MFI value is considered seropositive
+<ul>
+<li> 0 = No antigen response is considered seropositive</li>
+<li> 1 = One antigen MFI value is considered seropositive </li>
+<li> 2 = Two antigen MFI value is considered seropositive </li>
+<li> 3 = Three antigen MFI value is considered seropositive</li>
+</ul>
+<br>
 
 <br> <b>seropos_historic</b>: If the participant is seropositive to any of the 3 historic antigens (AMA-1 <b>OR</b> GLURP <b>OR</b> MSP1-19), they are characterised as seropositive to historic exposure.
+<br>
 
 <br><p>As this study takes place in a high transmission region, the selection of antigens can be more lenient than in a low transmission region.</p>
 
@@ -493,15 +499,21 @@ prop.table(table(dat$seropos_historic))*100</code></pre>
 <h3>Recent exposure</h3>
 <p>The code below creates the following variables:</p>
 <br> <b>seropos_antigen</b>: 
-<br> <b>- seronegative (0)</b>: the MFI value is below the MFI cutoff threshold established in the FMM above. 
-<br> <b>- seropositive (1)</b>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above.
+<ul>
+<li> <u>seronegative (0)</u>: the MFI value is below the MFI cutoff threshold established in the FMM above. </li>
+<li> <u>seropositive (1)</u>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above.</li>
+</ul>
+<br>
 
 <br> <b>recent_cumulative</b>: Combines the values of all recent exposure antigens. The value is either:
-<br> - 0 = No antigen response is considered seropositive 
-<br> - 1 = One antigen MFI value is considered seropositive 
-<br> - 2 = Two antigen MFI value is considered seropositive 
-<br> - 3 = Three antigen MFI value is considered seropositive
+<ul>
+<li> 0 = No antigen response is considered seropositive </li>
+<li> 1 = One antigen MFI value is considered seropositive </li>
+<li> 2 = Two antigen MFI value is considered seropositive </li>
+<li> 3 = Three antigen MFI value is considered seropositive</li>
+</ul>
 <br>
+
 <br> <b>seropos_recent</b>: If the participant is seropositive to one of the 3 recent exposure antigens (Etramp5 Ag1 <b>OR</b> GEXP18 <b>OR</b> Hyp2), they are characterised as seropositive to recent exposure.
 <pre class="r"><code># Create cumulative seropositive variable
 dat &lt;- dat %&gt;% 
@@ -561,8 +573,12 @@ AIC: 2161.3
 
 Number of Fisher Scoring iterations: 2</code></pre>
 <p>The results indicate several relationships between the variables and sero-positivity: 
-<br> 1. Based on the positive effect size (i.e.“Estimate” column) and p-value&lt;0.1, there is an increased odds of sero-positivity if an individual is female, in an older age group. 
-<br> 2. Based on the negative effect size and p-values, there is a reduced odds of sero-positivity if an individual uses a bednet.</p>
+<ol type="1">
+<li> Based on the positive effect size (i.e.“Estimate” column) and p-value&lt;0.1, there is an increased odds of sero-positivity if an individual is female, in an older age group. </li>
+<li> Based on the negative effect size and p-values, there is a reduced odds of sero-positivity if an individual uses a bednet.</li>
+</ol>
+</p>
+
 </div>
 <div id="recent-exposure-3" class="section level2">
 <h2>Recent exposure</h2>
@@ -597,8 +613,11 @@ AIC: 2480.1
 
 Number of Fisher Scoring iterations: 2</code></pre>
 <p>The results indicate several relationships between the variables and sero-positivity: 
-<br> 1. Based on the positive effect size (i.e.“Estimate” column) and p-value&lt;0.1, there is an increased odds of sero-positivity if an individual is in an older age group. 
-<br> 2. Based on the negative effect size and p-values, there is a reduced odds of sero-positivity if an individual has a normal haemoglobin range (&gt;11g/dL) or uses a bednet.</p>
+<ol type="1">
+<li> Based on the positive effect size (i.e.“Estimate” column) and p-value&lt;0.1, there is an increased odds of sero-positivity if an individual is in an older age group. </li>
+<li> Based on the negative effect size and p-values, there is a reduced odds of sero-positivity if an individual has a normal haemoglobin range (&gt;11g/dL) or uses a bednet.</li>
+</ol>
+</p>
 </div>
 </div>
 <hr>
