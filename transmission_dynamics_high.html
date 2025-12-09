@@ -456,54 +456,53 @@ to the sero-cutoff established in the FMM models in the step above.</p>
 <p>If an antigen MFI is above the threshold, then the participant is
 considered seropositive to that specific antigen.</p>
 <div id="historic-exposure-2" class="section level3">
-<h3>Historic exposure</h3>
-<p>The code below creates the following variables:</p>
-<br> <b>seropos_antigen:</b>
-<ul>
-<li> <u>seronegative (0)</u>: the MFI value is below the MFI cutoff threshold established in the FMM above. </li>
-<li> <u>seropositive (1)</u>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above. </li>
-</ul>
-
-<br> <b>historic_cumulative</b>: Combines the values of all historic antigens. The value is either:
-<ul>
-<li> 0 = No antigen response is considered seropositive</li>
-<li> 1 = One antigen MFI value is considered seropositive </li>
-<li> 2 = Two antigen MFI value is considered seropositive </li>
-<li> 3 = Three antigen MFI value is considered seropositive</li>
-</ul>
-<br>
-
-<br> <b>seropos_historic</b>: If the participant is seropositive to any of the 3 historic antigens (AMA-1 <b>OR</b> GLURP <b>OR</b> MSP1-19), they are characterised as seropositive to historic exposure.
-<br>
-
-<br><p>As this study takes place in a high transmission region, the selection of antigens can be more lenient than in a low transmission region.</p>
-
-<pre class="r"><code># Create cumulative seropositive variable
-dat &lt;- dat %&gt;% 
-  mutate(seropos_glurpr2 = ifelse(GLURP &gt;= cutoff_glurp$three_sd, 1, 0), 
-         seropos_pfama1 = ifelse(AMA_1 &gt;= cutoff_ama_1$three_sd, 1, 0), 
-         seropos_pfmsp119 = ifelse(MSP1_19 &gt;= cutoff_msp1_19$three_sd, 1, 0))%&gt;%
-  mutate(
-    historic_cumulative = seropos_pfmsp119 + seropos_pfama1 + seropos_glurpr2,
-    seropos_historic = if_else(historic_cumulative &gt;= 1, 1, 0)
-  )
-
-# check prevalence of historic exposure 
-prop.table(table(dat$seropos_historic))*100</code></pre>
-<pre><code>
-       0        1 
-31.73599 68.26401 </code></pre>
-</div>
+  <br>
+  <h3>Historic exposure</h3>
+  <p>The code below creates the following variables:</p>
+  <b>seropos_antigen:</b>
+  <ul>
+  <li> <u>seronegative (0)</u>: the MFI value is below the MFI cutoff threshold established in the FMM above. </li>
+  <li> <u>seropositive (1)</u>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above. </li>
+  </ul>
+  
+  <b>historic_cumulative</b>: Combines the values of all historic antigens. The value is either:
+  <ul>
+  <li> 0 = No antigen response is considered seropositive</li>
+  <li> 1 = One antigen MFI value is considered seropositive </li>
+  <li> 2 = Two antigen MFI value is considered seropositive </li>
+  <li> 3 = Three antigen MFI value is considered seropositive</li>
+  </ul>
+  
+  <br> <b>seropos_historic</b>: If the participant is seropositive to any of the 3 historic antigens (AMA-1 <b>OR</b> GLURP <b>OR</b> MSP1-19), they are characterised as seropositive to historic exposure.
+  <br>
+  
+  <br><p>As this study takes place in a high transmission region, the selection of antigens can be more lenient than in a low transmission region.</p>
+  
+  <pre class="r"><code># Create cumulative seropositive variable
+  dat &lt;- dat %&gt;% 
+    mutate(seropos_glurpr2 = ifelse(GLURP &gt;= cutoff_glurp$three_sd, 1, 0), 
+           seropos_pfama1 = ifelse(AMA_1 &gt;= cutoff_ama_1$three_sd, 1, 0), 
+           seropos_pfmsp119 = ifelse(MSP1_19 &gt;= cutoff_msp1_19$three_sd, 1, 0))%&gt;%
+    mutate(
+      historic_cumulative = seropos_pfmsp119 + seropos_pfama1 + seropos_glurpr2,
+      seropos_historic = if_else(historic_cumulative &gt;= 1, 1, 0)
+    )
+  
+  # check prevalence of historic exposure 
+  prop.table(table(dat$seropos_historic))*100</code></pre>
+  <pre><code>
+         0        1 
+  31.73599 68.26401 </code></pre>
+  </div>
 <br>
 <div id="recent-exposure-2" class="section level3">
 <h3>Recent exposure</h3>
 <p>The code below creates the following variables:</p>
-<br> <b>seropos_antigen</b>: 
+<b>seropos_antigen</b>: 
 <ul>
 <li> <u>seronegative (0)</u>: the MFI value is below the MFI cutoff threshold established in the FMM above. </li>
 <li> <u>seropositive (1)</u>: the MFI value is equal to or greater than the MFI cutoff threshold established in the FMM above.</li>
 </ul>
-<br>
 
 <br> <b>recent_cumulative</b>: Combines the values of all recent exposure antigens. The value is either:
 <ul>
@@ -512,7 +511,6 @@ prop.table(table(dat$seropos_historic))*100</code></pre>
 <li> 2 = Two antigen MFI value is considered seropositive </li>
 <li> 3 = Three antigen MFI value is considered seropositive</li>
 </ul>
-<br>
 
 <br> <b>seropos_recent</b>: If the participant is seropositive to one of the 3 recent exposure antigens (Etramp5 Ag1 <b>OR</b> GEXP18 <b>OR</b> Hyp2), they are characterised as seropositive to recent exposure.
 <pre class="r"><code># Create cumulative seropositive variable
