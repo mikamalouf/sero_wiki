@@ -69,7 +69,7 @@ R package provides tools for fitting longitudinal serological models to antibody
 [serosolver](https://github.com/seroanalytics/serosolver)  
 R package developed to create an inference framework for longitudinal serological data.  
 
-[serosv](https://oucru-modelling.github.io/serosv/)
+[serosv](https://oucru-modelling.github.io/serosv/)  
 R package designed to be easy to use to estimate infectious diseases parameters using serological data.
 
 ### *Generate synthetic data*
