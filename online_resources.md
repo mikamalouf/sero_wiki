@@ -58,7 +58,7 @@ R package to estimate the annual force of infection using cross-sectional serolo
 More information on its development and application is described in their [2025 publication](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012777)
 
 [Serocalculator](https://github.com/UCD-SERG/serocalculator)  
-An R package designed to estimate sero-incidence from cross-sectional data. Modelled from longitudinal data.  
+R package designed to estimate sero-incidence from cross-sectional data. Modelled from longitudinal data.  
 
 [seroFOI](https://github.com/epiverse-trace/serofoi)  
 R package that estimates the Force-of-Infection of a given pathogen from population-based, cross-sectional sero-prevalence studies
@@ -69,6 +69,8 @@ R package provides tools for fitting longitudinal serological models to antibody
 [serosolver](https://github.com/seroanalytics/serosolver)  
 R package developed to create an inference framework for longitudinal serological data.  
 
+[serosv](https://oucru-modelling.github.io/serosv/)
+R package designed to be easy to use to estimate infectious diseases parameters using serological data.
 
 ### *Generate synthetic data*
 [Seroism](https://seroanalytics.org/serosim-web/)  
