@@ -15,9 +15,9 @@ Below are a list of online resources
 * [Websites](#websites)
 * [Tutorials](#tutorials)
 * [R packages](#r-packages)
-* [Pre-processing/Quality control](#qc)
-* [Estimating the transmission dynamics](#transmission-dynamics)
-* [Generate synthetic data](#generate-data)
+  * [Pre-processing/Quality control](#qc)
+  * [Estimating the transmission dynamics](#transmission-dynamics)
+  * [Generate synthetic data](#generate-data)
 * [Other](#other)
 
 ---
