@@ -20,10 +20,25 @@ Serology, what it is, and what it can tell us
 ### Sero-epidemiology
 - traditional surveillance methods miss asymptomatic and mild cases
 - sero epi
-- reference Isabel's book chapter (Examples of applications of serology as an epidemiological tool)(https://link.springer.com/chapter/10.1007/978-3-031-76448-6_6)
+- reference book chapter - Examples of applications of serology as an epidemiological tool(https://link.springer.com/chapter/10.1007/978-3-031-76448-6_6)
+
+## Multiplex serology
+- what it is
+- multiple antigens either from a single pathogen or multiple pathogens
 
 ## Seroanalytics
 Unravelling the historic exposure of a pathogen through serology is a multi-step process that is broadly visualized through this pipeline created by the Seroanalytics Hub from Johns Hopkins. 
 - sample collection
 - lab (preprocess)
-- defining seropositivity
+- defining seropositivity (binary cutoff and cutoff free approaches)  
+**show the serodynamics paper**  
+
+**Other papers**  
+- PAHO serosurveillance  
+- NTD serocutoff  
+
+**examples**  
+- enteric  
+- malaria  
+- NTD  
+- VPDs  
