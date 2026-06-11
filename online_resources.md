@@ -25,7 +25,7 @@ Below are a list of online resources
 **[covidClassifyR](https://shaziaruybal.shinyapps.io/covidClassifyR/)**  
 An RShiny app developed as a tool to streamline the processing of raw serological multiplex data for measuring antibodies to SARS-CoV-2.
 
-**[Design, Optimisation, Validation, and Analysis Framework for Multiplex Bead‑Based Biomarker Assays](https://chrissyhroberts.github.io/Mos-Def/)**
+**[Design, Optimisation, Validation, and Analysis Framework for Multiplex Bead‑Based Biomarker Assays](https://chrissyhroberts.github.io/Mos-Def/)**  
 An online, open-sourced resource providing a generalised, platform‑focused wet‑lab and framework for the design, optimisation, validation, use and analysis of data from multiplex bead‑based biomarker assays (e.g., Luminex xMAP).
 
 **[ImmunoPlex](http://www.sourceforge.net/projects/mcmc-jags/files)**  
