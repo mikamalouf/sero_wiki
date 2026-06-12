@@ -26,7 +26,7 @@ Below are a list of online resources
 An RShiny app developed as a tool to streamline the processing of raw serological multiplex data for measuring antibodies to SARS-CoV-2.
 
 **[Design, Optimisation, Validation, and Analysis Framework for Multiplex Bead‑Based Biomarker Assays](https://chrissyhroberts.github.io/Mos-Def/)**  
-An online, open-sourced resource providing a generalised, platform‑focused wet‑lab and framework for the design, optimisation, validation, use and analysis of data from multiplex bead‑based biomarker assays (e.g., Luminex xMAP).
+An online, open-sourced resource providing a generalised, platform‑focused wet‑lab and framework for the design, optimisation, validation, use and analysis of data from multiplex bead‑based biomarker assays (e.g., Luminex xMAP).  
 
 **[ImmunoPlex](http://www.sourceforge.net/projects/mcmc-jags/files)**  
 A suite of tools to improve the quality assurance and quality control for multiplex immuno-assays. The flagship software in this suite is [Data Port](https://immunoplex.org/dataport-doc), a tool to manage, harmonise, and share immunoassay data. The suite also contains the web-application [I-SPI](https://immunoplex.org/i-spi-docs), which is designed to streamline QA and QC for immunoassays. For more information, you can access the GitHub for [Data Port](https://github.com/immunoplex/data-portal) and [I-SPI](https://github.com/immunoplex/i-spi). Please note that you will have to locally download I-SPI for lab use.  
