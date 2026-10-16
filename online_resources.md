@@ -58,7 +58,7 @@ A codebase of tutorials and the implementation of common seroanalytical models. 
 R package to process raw serological data
 
 **[SerolyzeR](https://github.com/mini-pw/SerolyzeR)**  
-R package to pre-processing raw data to an analysable form.
+R package to pre-processing raw data to an analysable form. You can access example and instructions [on their website here](https://mini-pw.github.io/SerolyzeR/articles/example_script.html).
 
 **[shinyMBA](https://github.com/CDCgov/shinyMBA)**  
 R shiny application developed by the US CDC to streamline quality control (QC) analyses for serosurveillance studies using the Luminex multiplex bead assay (MBA). You can read more on its use and development [here](https://www.nature.com/articles/s41598-024-57652-4#Ack1)
