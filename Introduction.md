@@ -76,7 +76,7 @@ In a post-pandemic respiratory study, young children experienced larger drops in
 ## Seroanalytics
 Unravelling the historic exposure of a pathogen through serology is a multi-step process that is broadly visualized through this pipeline created by the Seroanalytics Hub from Johns Hopkins. 
 
-[Figure 1: Seroanalytics pipeline](/images/seroanalytic_pipeline.png)
+![Figure 1: Seroanalytics pipeline](https://github.com/mikamalouf/sero_wiki/blob/main/images/seroanalytic_pipeline.png)
 - sample collection
 - lab (preprocess)
 - defining seropositivity (binary cutoff and cutoff free approaches)  
