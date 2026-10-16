@@ -11,6 +11,5 @@ This web application was created by researchers in the Drakeley group at the Lon
 If you have any questions or see any issues with the web application, please XXXXX
 
 ## FAQs
-1. 
 
 Last updated: 16 July 2026

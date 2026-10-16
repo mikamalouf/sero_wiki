@@ -8,10 +8,10 @@ output:
     toc_depth: 3
 ---
 
-#**UNDER CONSTRUCTION**
+##########**UNDER CONSTRUCTION**##########
 
 # Introduction
-Offers background as to what sero-surveillence is, what it does, and steps to interpret multi-pathogen, multiplex datasets
+Background as to what sero-surveillence is, what it does, and steps to interpret multi-pathogen, multiplex datasets
 
 ## Table of contents
 * [Serology](#serology)
@@ -25,36 +25,30 @@ Offers background as to what sero-surveillence is, what it does, and steps to in
 ## Serology
 Antibodies, also known as immunoglobulins (Ig), are produced by the immune system in response to exposure to antigens in the form of infections or vaccinations. 
 One way to study and ultimately eliminate some diseases is through antibody analysis. There are multiple antibodies produced after this exposure, with IgG being the longest lasting isotype. It wanes but slower than other isotypes and often plateaus at detectable levels. IgG levels accumulate with re-exposure to the antigen, making it a useful tool for historical epidemiological surveillance by revealing past infections even after the pathogen is cleared.
-The COVID-19 pandemic amplified interest in analysing serological biomarkers15, with a heightened focus on measuring the
-presence of various circulating pathogens16-18. Since infections do not always manifest symptoms, many cases often go unreported through
-traditional surveillance methods19. Serology enhances a study's power and precision by identifying individuals who were infected but exhibited mild symptoms or were asymptomatic20. Additionally, this
-approach is valuable as it provides a longer-term view of exposure than polymerase chain reaction (PCR) or rapid diagnostic tests (RDT)21.
+The COVID-19 pandemic amplified interest in analysing serological biomarkers[Arora et al., 2021](https://www.sciencedirect.com/science/article/pii/S1473309920306319?via%3Dihub), with a heightened focus on measuring the
+presence of various circulating pathogens [Bastard et al., 2022](https://www.nature.com/articles/s43856-022-00230-4), [Moss et al., 2018](https://www.ajtmh.org/view/journals/tpmd/85/2/article-p229.xml)[Haselbeck et al., 2022](https://www.mdpi.com/2076-0817/11/7/732). Since infections do not always manifest symptoms, many cases often go unreported through
+traditional surveillance methods [Menezes et al., 2025](https://www.sciencedirect.com/science/article/pii/S0966842X24003226?via%3Dihub). Serology enhances a study's power and precision by identifying individuals who were infected but exhibited mild symptoms or were asymptomatic [Wu et al., 2022](https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(22)00002-5/fulltext). Additionally, this
+approach is valuable as it provides a longer-term view of exposure than polymerase chain reaction (PCR) or rapid diagnostic tests (RDT) [Drakeley and Cook, 2009](https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0065308X09690059).
 
-- there are 5 different types of immunoglobulins in humans
-- IgM produces first but quickly wanes after the infection is cleared
-- IgG is the longest lasting isotype
-- 
-
-types of antibody presence meaning [(Metcalf et al., 2016)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30164-7/fulltext)
+### Types of antibodies and their utility
+- There are 5 different types of immunoglobulins in humans. IgM produces first but quickly wanes after the infection is cleared. IgG is the longest lasting isotype
+- [(Metcalf et al., 2016)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(16)30164-7/fulltext)
 
 Serology, what it is, and what it can tell us  
-- can be used as a tool to provide longer-term view of exposure than current diagnostic tests. The application of serology is becoming increasingly recognised as a useful tool to complement
-traditional epidemiological and surveillance methods.   
+ 
 
 ### Sero-epidemiology
-- traditional surveillance methods miss asymptomatic and mild cases
-- sero epi
+- Traditional surveillance methods often miss asymptomatic and mild cases 
+- By integrating serology, we can capture transmission in a population often missed. 
 - reference book chapter - Examples of applications of serology as an epidemiological tool(https://link.springer.com/chapter/10.1007/978-3-031-76448-6_6)
 [Serology as a Tool to Assess Infectious Disease Landscapes and Guide Public Health Policy](https://www.mdpi.com/2076-0817/11/7/732)
 
 ## Multiplex serology
-- what it is
+- A sample is added to a well containing colour-coded beads pre-coated with the antigen of interest. The antibodies in the sample bind to the bead and a detection antibody allows for the signaling of binding. The average magnitude of the signal for the beads in a well are reported as the median fluorescence intensity. The MFI value is proportional to levels of the antibody in the sera, so a higher MFI values likely represent some kind of exposure
 - multiple antigens either from a single pathogen or multiple pathogens
 - assays sensitive as ELISAs and becoming increasingly established
 - MBA
-  A sample is added to a well containing colour-coded beads pre-coated with the antigen of interest. The antibodies in the sample bind to the bead and a detection antibody allows for the signaling of binding. The average magnitude of the signal for the beads in a well are reported as the median fluorescence intensity. The MFI value is proportional to levels of the antibody in the sera, so a higher MFI values likely represent some kind of exposure
-
-
+  
 
 ## Applications of multiplex serology
 There are many applications of multiplex multi-pathogen serology from mapping prevalence, to evaluating interventions, to understanding immune dynamics across populations. This section will highlight a few publications show casing the use of multi-pathogen multiplex serology.
@@ -81,6 +75,8 @@ In a post-pandemic respiratory study, young children experienced larger drops in
 
 ## Seroanalytics
 Unravelling the historic exposure of a pathogen through serology is a multi-step process that is broadly visualized through this pipeline created by the Seroanalytics Hub from Johns Hopkins. 
+
+![Figure 1: Seroanalytics pipeline](../images/seroanalytic_pipeline.png)
 - sample collection
 - lab (preprocess)
 - defining seropositivity (binary cutoff and cutoff free approaches)  
@@ -88,7 +84,7 @@ Unravelling the historic exposure of a pathogen through serology is a multi-step
 
 **Other papers**  
 [Toolkit for Integrated Serosurveillance of Communicable Diseases in the Americas](https://www.paho.org/en/documents/toolkit-integrated-serosurveillance-communicable-diseases-americas)
-South American made a basic toolkit on how to conduct these surveys
+A toolkit made by the Pan American Health Organization to help with the design, analysis, interpretation, and use of integrated sero-surveys to aid in surveillance and disease elimination.
 
 [Multiplex bead assays enable integrated serological surveillance and reveal cross-pathogen vulnerabilities in Zambezia Province, Mozambique](https://www.nature.com/articles/s41467-025-62305-9)
 [Characterising spatial patterns of neglected tropical disease transmission using integrated sero-surveillance in Northern Ghana](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010227)
