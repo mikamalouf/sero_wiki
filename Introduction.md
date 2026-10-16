@@ -76,18 +76,22 @@ In a post-pandemic respiratory study, young children experienced larger drops in
 ## Seroanalytics
 Unravelling the historic exposure of a pathogen through serology is a multi-step process that is broadly visualized through this pipeline created by the Seroanalytics Hub from Johns Hopkins. 
 
-![Figure 1: Seroanalytics pipeline](../images/seroanalytic_pipeline.png)
+[Figure 1: Seroanalytics pipeline](/images/seroanalytic_pipeline.png)
 - sample collection
 - lab (preprocess)
 - defining seropositivity (binary cutoff and cutoff free approaches)  
 [Serodynamics: A primer and synthetic review of methods for epidemiological inference using serological data](https://www.sciencedirect.com/science/article/pii/S1755436524000677)
 
 **Other papers**  
-[Toolkit for Integrated Serosurveillance of Communicable Diseases in the Americas](https://www.paho.org/en/documents/toolkit-integrated-serosurveillance-communicable-diseases-americas)
+[Toolkit for Integrated Serosurveillance of Communicable Diseases in the Americas](https://www.paho.org/en/documents/toolkit-integrated-serosurveillance-communicable-diseases-americas)  
 A toolkit made by the Pan American Health Organization to help with the design, analysis, interpretation, and use of integrated sero-surveys to aid in surveillance and disease elimination.
 
-[Multiplex bead assays enable integrated serological surveillance and reveal cross-pathogen vulnerabilities in Zambezia Province, Mozambique](https://www.nature.com/articles/s41467-025-62305-9)
-[Characterising spatial patterns of neglected tropical disease transmission using integrated sero-surveillance in Northern Ghana](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010227)
+[Multiplex bead assays enable integrated serological surveillance and reveal cross-pathogen vulnerabilities in Zambezia Province, Mozambique](https://www.nature.com/articles/s41467-025-62305-9)  
+Gold standard of multi-pathogen multiplex analyses.  
+
+[Characterising spatial patterns of neglected tropical disease transmission using integrated sero-surveillance in Northern Ghana](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0010227)  
+Mapping of multiple pathogens in a single map.  
+
 
 **examples**  
 - enteric  
@@ -95,6 +99,4 @@ A toolkit made by the Pan American Health Organization to help with the design, 
 - malaria  
 - NTD  
 - VPDs  
-- Combined
-  [Measuring changes in transmission of neglected tropical diseases, malaria, and enteric pathogens from quantitative antibody levels](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005616)
-  This is still seperating pathogens by type
+- [Measuring changes in transmission of neglected tropical diseases, malaria, and enteric pathogens from quantitative antibody levels](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0005616)
